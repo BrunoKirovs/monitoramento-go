@@ -52,6 +52,14 @@ func leComando() int {
 
 func iniciarMonitoramento() {
 	fmt.Println("Monitorando...")
+	sites := []string{"www.alura.com.br", "https://projetoportifolio-beta.vercel.app/", "https://www.linkedin.com/"}
+
+	fmt.Println(sites)
+
+	for i, site := range sites {
+		fmt.Println("Estou passando na posição", i, "do meu slice e essa posicao tem o site:", site)
+	}
+
 	site := "https://www.alura.com.br"
 	resp, _ := http.Get(site)
 
