@@ -4,7 +4,11 @@ import (
 	"fmt"
 	"net/http"
 	"os"
+	"time"
 )
+
+const monitoramento = 3
+const delay = 5
 
 func main() {
 
@@ -52,15 +56,24 @@ func leComando() int {
 
 func iniciarMonitoramento() {
 	fmt.Println("Monitorando...")
-	sites := []string{"www.alura.com.br", "https://projetoportifolio-beta.vercel.app/", "https://www.linkedin.com/"}
 
-	fmt.Println(sites)
+	//sites := []string{"https://www.alura.com.br", "https://projetoportifolio-beta.vercel.app/",
+	//"https://www.linkedin.com/"}
 
-	for i, site := range sites {
-		fmt.Println("Estou passando na posição", i, "do meu slice e essa posicao tem o site:", site)
+	sites := leSitesDoArquivo()
+
+	for i := 0; i < monitoramento; i++ {
+		for i, site := range sites {
+			fmt.Println("Testando site", i, ":", site)
+			testaSite(site)
+		}
+		time.Sleep(delay * time.Second)
+		fmt.Println("")
 	}
+	fmt.Println("")
+}
 
-	site := "https://www.alura.com.br"
+func testaSite(site string) {
 	resp, _ := http.Get(site)
 
 	if resp.StatusCode == 200 {
@@ -69,4 +82,18 @@ func iniciarMonitoramento() {
 		fmt.Println("Site", site, "esta com palavras. Status Code:", resp.StatusCode)
 	}
 
+}
+
+func leSitesDoArquivo() []string {
+
+	var sites []string
+
+	arquivo, err := os.Open("sites.txt")
+
+	if err != nil {
+		fmt.Println("Ocorreu um erro:", err)
+	}
+
+	fmt.Println(arquivo)
+	return sites
 }
