@@ -1,0 +1,10 @@
+https://www.linkedin.com/- online: truepp/- online: truesite-falso- online: false
+https://www.alura.com.br- online: true
+https://projetoportifolio-beta.vercel.app/- online: true
+https://www.linkedin.com/- online: true
+https://www.alura.com.br- online: true
+https://projetoportifolio-beta.vercel.app/- online: true
+https://www.linkedin.com/- online: true
+https://www.alura.com.br- online: true
+https://projetoportifolio-beta.vercel.app/- online: true
+https://www.linkedin.com/- online: true
