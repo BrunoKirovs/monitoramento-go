@@ -8,3 +8,24 @@ https://www.linkedin.com/- online: true
 https://www.alura.com.br- online: true
 https://projetoportifolio-beta.vercel.app/- online: true
 https://www.linkedin.com/- online: true
+14/07/2025 21:04::59site-falso- online: false
+14/07/2025 21:05::04https://www.alura.com.br- online: true
+14/07/2025 21:05::04https://projetoportifolio-beta.vercel.app/- online: true
+14/07/2025 21:05::05https://www.linkedin.com/- online: true
+14/07/2025 21:05::10https://www.alura.com.br- online: true
+14/07/2025 21:05::10https://projetoportifolio-beta.vercel.app/- online: true
+14/07/2025 21:05::11https://www.linkedin.com/- online: true
+14/07/2025 21:05::16https://www.alura.com.br- online: true
+14/07/2025 21:05::16https://projetoportifolio-beta.vercel.app/- online: true
+14/07/2025 21:05::17https://www.linkedin.com/- online: true
+14/07/2025 21:09::20site-falso- online: false
+14/07/2025 21:10::19site-falso- online: false
+14/07/2025 21:10::24https://www.alura.com.br- online: true
+14/07/2025 21:10::24https://projetoportifolio-beta.vercel.app/- online: true
+14/07/2025 21:10::24https://www.linkedin.com/- online: true
+14/07/2025 21:10::30https://www.alura.com.br- online: true
+14/07/2025 21:10::30https://projetoportifolio-beta.vercel.app/- online: true
+14/07/2025 21:10::30https://www.linkedin.com/- online: true
+14/07/2025 21:10::35https://www.alura.com.br- online: true
+14/07/2025 21:10::35https://projetoportifolio-beta.vercel.app/- online: true
+14/07/2025 21:10::35https://www.linkedin.com/- online: true
